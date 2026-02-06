@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Valentine’s Day ❤️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Playfair Display', serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ff6f91, #ff9671, #ffc75f);
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            flex-direction: column;
+        }
+
+        .floating-heart {
+            position: absolute;
+            bottom: -50px;
+            font-size: 24px;
+            animation: float 8s infinite;
+            opacity: 0.6;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0.8;
+            }
+
+            100% {
+                transform: translateY(-120vh);
+                opacity: 0;
+            }
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.18);
+            padding: 45px 35px;
+            border-radius: 28px;
+            max-width: 560px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(14px);
+            animation: fadeIn 2s ease;
+            margin: 40px auto;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 2.7rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            margin-bottom: 25px;
+            font-style: italic;
+        }
+
+        .heart {
+            font-size: 3.5rem;
+            margin: 25px 0;
+            animation: heartbeat 1.4s infinite;
+        }
+
+        @keyframes heartbeat {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.3);
+            }
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .signature {
+            margin-top: 30px;
+            font-style: italic;
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #ff4d6d, #ff758f);
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        .quiz {
+            display: none;
+            margin-top: 25px;
+        }
+
+        .answer {
+            margin: 12px 0;
+            padding: 12px;
+            border-radius: 20px;
+            background: #fff;
+            color: #ff4d6d;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .answer:hover {
+            background: #ff4d6d;
+            color: #fff;
+            transform: scale(1.03);
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 1.3rem;
+        }
+
+        /* Surprise image */
+        .surprise-img {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        @media (max-width:480px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+
+            h3 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .heart {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Floating hearts -->
+    <div class="floating-heart" style="left:10%; animation-delay:0s;">❤️</div>
+    <div class="floating-heart" style="left:30%; animation-delay:2s;">💖</div>
+    <div class="floating-heart" style="left:50%; animation-delay:4s;">❤️</div>
+    <div class="floating-heart" style="left:70%; animation-delay:1s;">💗</div>
+    <div class="floating-heart" style="left:90%; animation-delay:3s;">❤️</div>
+
+    <div class="container">
+        <!-- LOVE LETTER -->
+        <div id="love">
+            <h1>Happy Valentine’s Day ❤️</h1>
+            <h2>To my wonderful husband</h2>
+            <h3>MOHIT ❤️ KANU</h3>
+
+            <div class="heart">❤️</div>
+
+            <p>
+                From the moment you entered my life, everything became brighter.
+                Your love gives me strength, comfort, and endless happiness.
+                You are the best gift from God. I know sometimes i do overthink but thank you for hold me and console me
+                bacha.
+            </p>
+
+            <p>
+                Thank you for being my best friend, my partner,
+                and my forever love.
+            </p>
+
+            <p>
+                I choose you today, tomorrow, and always.
+                I love you so much. You are my whole world.
+            </p>
+
+            <div class="signature">
+                With all my love,<br>
+                Your wife 💕<br>
+                Kanu
+            </div>
+
+            <button onclick="startQuiz()">A Little Surprise 💌</button>
+        </div>
+
+        <!-- QUIZ -->
+        <div class="quiz" id="quiz">
+            <h2 id="question"></h2>
+
+            <div class="answer" onclick="checkAnswer(0)"></div>
+            <div class="answer" onclick="checkAnswer(1)"></div>
+            <div class="answer" onclick="checkAnswer(2)"></div>
+
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            { question: "When did we first meet? ❤️", answers: ["2025", "2024", "2023"], correct: 0 },
+            { question: "What am I to you? 💕", answers: ["Your wife", "Your best friend", "Your whole world"], correct: 2 },
+            { question: "What do I love most about you? 😘", answers: ["Your smile", "Your heart", "Everything about you"], correct: 2 },
+            { question: "What do you love most about me? 🤍", answers: ["my smile", "my heart", "my eyes"], correct: 1 },
+            { question: "Will you love me forever? 💍", answers: ["Yes", "Always", "Till my last breath"], correct: 2 }
+        ];
+
+        let currentQuestion = 0;
+        const questionEl = document.getElementById("question");
+        const answersEl = document.querySelectorAll(".answer");
+        const resultEl = document.getElementById("result");
+
+        function startQuiz() {
+            document.getElementById("love").style.display = "none";
+            document.getElementById("quiz").style.display = "block";
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            resultEl.innerHTML = "";
+            questionEl.innerText = questions[currentQuestion].question;
+            answersEl.forEach((btn, i) => btn.innerText = questions[currentQuestion].answers[i]);
+        }
+
+        function checkAnswer(selected) {
+            if (selected === questions[currentQuestion].correct) {
+                resultEl.innerHTML = "❤️ Correct ❤️";
+                currentQuestion++;
+                setTimeout(() => {
+                    if (currentQuestion < questions.length) {
+                        loadQuestion();
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    } else {
+                        showFinalMessage();
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
+                }, 900);
+            } else {
+                resultEl.innerHTML = "😝 Try again, my love ❤️";
+            }
+        }
+
+        function showFinalMessage() {
+
+            const imgUrl = "C:/Users/HP/OneDrive/Desktop/kanumohit/image/WhatsApp Image 2026-02-06 at 2.05.06 AM.jpeg";
+
+            document.getElementById("quiz").innerHTML = `
+                <h2>❤️ You passed my heart test ❤️</h2>
+                <p>Thank you for loving me, understanding me, and choosing me every single day.</p>
+                <p>You are my forever, my always, my everything 💕</p>
+                <img class="surprise-img" src="${imgUrl}" alt="Our Love">
+                <div class="heart">❤️</div>
+            `;
+        }
+    </script>
+
+</body>
+
+</html>
